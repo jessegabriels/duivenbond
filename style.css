@@ -122,14 +122,20 @@ footer {
 }
 
 .uitslag-btn {
-  display: block;
-  padding: 15px;
+  display: flex;
+  justify-content: center;  /* horizontaal centreren */
+  align-items: center;      /* verticaal centreren */
+  padding: 15px 20px;
   background-color: #007BFF;
   color: white;
-  text-decoration: none;
   font-size: 1.2em;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  text-align: center; /* fallback */
 }
 
 .uitslag-btn:hover {

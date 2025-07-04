@@ -45,3 +45,52 @@ body {
       font-size: 0.9em;
       color: #333;
     }
+        .kampioenschap {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .kampioenschap h2 { margin-top: 0; }
+    .download-btn {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+        .wedstrijd-box {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+    }
+    .wedstrijd-box h2 {
+      margin-top: 0;
+    }
+    .info {
+      font-size: 1.1em;
+    }
+        .btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .uitslag-btn {
+      display: block;
+      padding: 15px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    .uitslag-btn:hover {
+      background-color: #0056b3;
+    }

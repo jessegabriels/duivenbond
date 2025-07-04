@@ -96,18 +96,9 @@ footer {
   border-radius: 8px;
   margin-bottom: 20px;
   width: 100%;           /* Mobiel: volle breedte */
-  max-width: 600px;      /* Max breedte voor grotere schermen */
   text-align: center;
 }
 
-/* Op grote schermen col-4 breedte */
-@media (min-width: 992px) {
-  .wedstrijd-box {
-    width: 33.3333%; /* ongeveer col-4 */
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 .info {
   font-size: 1.1em;

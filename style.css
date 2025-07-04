@@ -44,6 +44,8 @@ body {
       padding: 15px;
       font-size: 0.9em;
       color: #333;
+      position: relative;
+      margin-top: 200px;
     }
         .kampioenschap {
       border: 1px solid #ccc;
@@ -93,4 +95,37 @@ body {
     }
     .uitslag-btn:hover {
       background-color: #0056b3;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .vlucht {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+      padding-left: 30px;
+    }
+    
+    h2 { color: #444; }
+    .btns .uitslag {
+      display: inline-block;
+      background-color: #007BFF;
+      color: white;
+      padding: 8px 12px;
+      margin-right: 10px;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-bottom: 5px;
+    }
+
+    .muurlijst{
+      display: inline-block;
+      background-color: #12b41a;
+      color: white;
+      padding: 8px 12px;
+      margin-right: 10px;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-bottom: 5px;
     }

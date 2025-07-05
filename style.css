@@ -9,10 +9,6 @@ html, body {
   min-height: 100vh;
 }
 
-body {
-  /* margin en padding al op 0 via html, body */
-}
-
 main {
   flex: 1;
   padding: 20px;
@@ -150,4 +146,13 @@ h2 {
   border-radius: 4px;
   text-decoration: none;
   margin-bottom: 5px;
+}
+
+.logo{
+  width: 60px;
+  height: auto;
+}
+
+.mirrored {
+  transform: scaleX(-1);
 }

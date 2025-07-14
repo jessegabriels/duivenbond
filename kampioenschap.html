@@ -6,6 +6,7 @@
   <title>Volgende Wedstrijd - Duivenbond Bevel</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
   <link rel="shortcut icon" href="images/favicon/favicon.ico" />
@@ -53,11 +54,35 @@
     <div class="content text-center">
       <h2>Kampioenschappen 2025</h2>
       <p class="mb-2">Hieronder vind je een overzicht van alle kampioenschappen, netjes onderverdeeld per categorie.</p>
+      <p class="mb-2">Druk op een knop hieronder om rechtstreeks naar de gewenste categorie te gaan.</p>
+    </div>
+
+    <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
+      <div class="btn-hover-wrapper position-relative">
+        <img src="images/duifzwart.svg" alt="logo" class="hover-icon">
+        <a href="#noyonkamp" class="btn btn-outline-primary"> Noyon</a>
+      </div>
+      <div class="btn-hover-wrapper position-relative">
+        <img src="images/duifzwart.svg" alt="logo" class="hover-icon">
+        <a href="#quievrainkamp" class="btn btn-outline-primary"> Quiévrain</a>
+      </div>
+      <div class="btn-hover-wrapper position-relative">
+        <img src="images/duifzwart.svg" alt="logo" class="hover-icon">
+        <a href="#hafokamp" class="btn btn-outline-primary"> Halve fond</a>
+      </div>
+      <div class="btn-hover-wrapper position-relative">
+        <img src="images/duifzwart.svg" alt="logo" class="hover-icon">
+        <a href="#kfondkamp" class="btn btn-outline-primary"> Kleine fond</a>
+      </div>
+      <div class="btn-hover-wrapper position-relative">
+        <img src="images/duifzwart.svg" alt="logo" class="hover-icon">
+        <a href="#gfondkamp" class="btn btn-outline-primary"> Grote fond</a>
+      </div>
     </div>
 
     <hr style="height: 5px;">
 
-    <h2>Noyon</h2>
+    <h2 id="noyonkamp">Noyon</h2>
 
     <div class="accordion" id="kampioenschapAccordion">
 
@@ -129,7 +154,7 @@
         </div>
       </div>
 
-          <!-- Categorie 5 -->
+      <!-- Categorie 5 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading5">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
@@ -146,7 +171,7 @@
         </div>
       </div>
 
-          <!-- Categorie 6 -->
+      <!-- Categorie 6 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading6">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
@@ -166,7 +191,7 @@
       <br>
 
       <hr style="height: 5px;">
-      <h2>Quiévrain</h2>
+      <h2 id="quievrainkamp">Quiévrain</h2>
 
       <!-- Categorie 7 -->
       <div class="accordion-item">
@@ -236,11 +261,11 @@
         </div>
       </div>
 
-          <!-- Categorie 11 -->
+      <!-- Categorie 11 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading11">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11">
-            Jonge duiven
+            Jonge duiven - <strong> 1e en 2e getekende</strong>
           </button>
         </h2>
         <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
@@ -253,7 +278,7 @@
         </div>
       </div>
 
-          <!-- Categorie 12 -->
+      <!-- Categorie 12 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading12">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12">
@@ -273,6 +298,387 @@
       <br>
       <hr style="height: 5px;">
 
+      <div class="container my-4">
+        <div class="alert alert-secondary d-flex align-items-center border rounded-3 shadow-sm" role="alert">
+          <i class="fas fa-clock fa-lg me-3 text-muted"></i>
+          <div>
+            <strong>Opgelet:</strong> De documenten voor de kampioenschappen hieronder zijn momenteel nog niet beschikbaar. 
+            Geen zorgen, ze worden zo snel mogelijk toegevoegd.
+          </div>
+        </div>
+      </div>
+
+      <h2 id="hafokamp">Halve fond</h2>
+
+      <!-- Categorie 13 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading13">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13">
+            Oude duiven - <strong> 1e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse13" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 14 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading14">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14">
+            Oude duiven - <strong> 1e en 2e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 15 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading15">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15">
+            Oude duiven - <strong> Asduif</strong>
+          </button>
+        </h2>
+        <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 16 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading16">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16">
+            Jaarse duiven - <strong> 1e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse16" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 17 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading17">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17">
+            Jaarse duiven - <strong> 1e en 2e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 18 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading18">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18">
+            Jaarse duiven - <strong> Asduif</strong>
+          </button>
+        </h2>
+        <div id="collapse18" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 19 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading19">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19">
+            Jonge duiven - <strong> 1e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse19" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 20 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading20">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20">
+            Jonge duiven - <strong> 1e en 2e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse20" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 21 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading21">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21">
+            Jonge duiven - <strong> Asduif</strong>
+          </button>
+        </h2>
+        <div id="collapse21" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <hr style="height: 5px;">
+      <h2 id="kfondkamp">Kleine fond</h2>
+
+      <!-- Categorie 22 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading22">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22">
+            Oude duiven - <strong> 1e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse22" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 22 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading23">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23">
+            Oude duiven - <strong> 1e en 2e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse23" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 23 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading23">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23">
+            Jaarse duiven - <strong> 1e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse23" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 24 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading24">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24">
+            Jaarse duiven - <strong> 1e en 2e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse24" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 25 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading25">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse25">
+            Jonge duiven - <strong> 1e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse25" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 26 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading26">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse26">
+            Jonge duiven - <strong> 1e en 2e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse26" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 27 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading27">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse27">
+            <strong> Asduif</strong>
+          </button>
+        </h2>
+        <div id="collapse27" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <hr style="height: 5px;">
+      <h2 id="gfondkamp">Grote fond</h2>
+
+      <!-- Categorie 28 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading28">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse28">
+            Oude duiven - <strong> 1e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse28" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 29 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading29">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse29">
+            Oude duiven - <strong> 1e en 2e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse29" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 30 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading30">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse30">
+            Jaarse duiven - <strong> 1e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse30" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 31 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading31">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse31">
+            Jaarse duiven - <strong> 1e en 2e getekende</strong>
+          </button>
+        </h2>
+        <div id="collapse31" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categorie 32 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading32">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse32">
+            <strong> Asduif</strong>
+          </button>
+        </h2>
+        <div id="collapse32" class="accordion-collapse collapse" data-bs-parent="#kampioenschapAccordion">
+          <div class="accordion-body">
+            <p>Kampioenschap lopende van ... tot en met ...</p>
+            <a class="download-btn" href="documents/notfound.pdf" target="_blank">
+              📄 Bekijk kampioenschap
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <hr style="height: 5px;">
+      
+
       <p class="text-muted text-center mt-4">
         Enkele kampioenschappen worden binnenkort nog toegevoegd. Kom dus zeker later nog eens terug om het volledige overzicht te bekijken!
       </p>
@@ -283,7 +689,13 @@
   <footer>
     &copy; 2025 Duivenbond Bevel - Alle rechten voorbehouden.
   </footer>
-      <!-- 100% privacy-first analytics -->
-    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+  <button onclick="scrollToTop()" id="topButton" class="btn rounded-circle shadow" title="Terug naar boven">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  
+  <script async src="scrolltotop.js"></script>
+  <!-- 100% privacy-first analytics -->
+  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </body>
 </html>

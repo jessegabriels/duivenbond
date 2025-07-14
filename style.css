@@ -227,3 +227,56 @@ h2 {
 .muurlijst:hover {
   transform: scale(1.1);
 }
+
+
+.fancy-btn {
+  overflow: hidden;
+  padding: 0.75rem 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.fancy-btn .icon-wrap {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: bottom 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+  z-index: 0;
+}
+
+.fancy-btn .btn-icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.15;
+}
+
+.fancy-btn:hover .icon-wrap {
+  bottom: 0.4rem;
+  opacity: 1;
+}
+
+.btn-hover-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-icon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.btn-hover-wrapper:hover .hover-icon {
+  transform: translate(-50%, -130%);
+  opacity: 0.4;
+}
+

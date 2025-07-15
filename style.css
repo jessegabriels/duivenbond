@@ -280,3 +280,19 @@ h2 {
   opacity: 0.4;
 }
 
+.message-box {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.pigeon {
+  font-size: 4rem;
+}
+
+.btn-home {
+  margin-top: 2rem;
+}
+

@@ -50,9 +50,17 @@
     </nav>
 
     <div class="container my-5">
-
-        <h3>Stuur ons een bericht</h3>
-        <form name="contact" method="post" netlify>
+        <div class="mb-3 ">
+            <h2>Contacteer ons</h2>
+            <p class="text-center">
+                Heb je een vraag over de duivensport, onze wedstrijden of uitslagen?
+                Neem gerust contact met ons op via de gegevens hieronder. We helpen je met plezier verder!
+            </p>
+        </div>
+        <br>
+        <h2>Stuur ons een bericht</h2>
+        <p class="text-center text-danger"> * Verplichte velden</p>
+        <form name="contact" method="post" netlify action="bedankt.html">
             <!-- SPAM bescherming -->
             <input type="hidden" name="form-name" value="contact">
             <p hidden>
@@ -60,17 +68,17 @@
             </p>
 
             <div class="mb-3">
-                <label for="name" class="form-label">Naam</label>
+                <label for="name" class="form-label">Naam <span class="text-danger">*</span></label>
                 <input type="text" name="name" id="name" class="form-control" required>
             </div>
 
             <div class="mb-3">
-                <label for="email" class="form-label">E-mail</label>
+                <label for="email" class="form-label">E-mail <span class="text-danger">*</span></label>
                 <input type="email" name="email" id="email" class="form-control" required>
             </div>
 
             <div class="mb-3">
-                <label for="message" class="form-label">Bericht</label>
+                <label for="message" class="form-label">Bericht <span class="text-danger">*</span></label>
                 <textarea name="message" id="message" rows="5" class="form-control" required></textarea>
             </div>
 
@@ -82,13 +90,7 @@
     
     <div class="container my-5">
         <div class="row">
-            <div class="mb-3">
-                <h2>Contacteer ons</h2>
-                <p>
-                    Heb je een vraag over de duivensport, onze wedstrijden of uitslagen?
-                    Neem gerust contact met ons op via de gegevens hieronder. We helpen je met plezier verder!
-                </p>
-            </div>
+            
             <br>
             <div class="col-12 col-md-6">
                 <p>

@@ -314,20 +314,29 @@ h2 {
 }
 
 .wedstrijd-box.replacement {
-    position: relative;
-    border: 1px solid #28a745; /* groene rand voor nieuwe vlucht */
+    border: 1px solid #28a745; /* groene rand */
     background: #e9f7ef; /* lichtgroene achtergrond */
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .replacement-label {
     background-color: #28a745; /* felgroen */
     color: white;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     font-size: 1.1em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 1rem;
 }
 
+.replacement-label p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.replacement-label small {
+    font-weight: normal;
+    font-size: 0.85em;
+    display: block;
+}

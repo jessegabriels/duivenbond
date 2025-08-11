@@ -296,3 +296,38 @@ h2 {
   margin-top: 2rem;
 }
 
+.wedstrijd-box.cancelled .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.7); /* lichte witte overlay voor mistig effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; /* zorgt dat klikken gewoon doorkomen */
+}
+
+.wedstrijd-box.cancelled .overlay-text {
+    color: red;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+}
+
+.wedstrijd-box.replacement {
+    position: relative;
+    border: 1px solid #28a745; /* groene rand voor nieuwe vlucht */
+    background: #e9f7ef; /* lichtgroene achtergrond */
+}
+
+.replacement-label {
+    background-color: #28a745; /* felgroen */
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 5px;
+}
+
